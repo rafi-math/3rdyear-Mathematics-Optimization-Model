@@ -1,10 +1,9 @@
 from pulp import *
 
-# 1. Initialize the Optimization Problem
-model = LpProblem("CU_Mathematics_Department_Optimization", LpMaximize)
+# 1. Setup the Maximization Problem
+model = LpProblem("CU_Math_Optimization", LpMaximize)
 
-# 2. Exact Data from University of Chittagong 3rd Year Syllabus
-# Format: "Course Title": [Marks, Credits]
+# 2. Official Syllabus Data (Course: [Max Marks, Credits])
 syllabus = {
     "Real Analysis( II)": [75, 3],
     "Complex Analysis( I)": [75, 3],
@@ -20,32 +19,28 @@ syllabus = {
     "Viva Voce": [75, 3]
 }
 
-# 3. Variables: Hours to spend per week on each
-h = LpVariable.dicts("Study_Hrs", syllabus.keys(), lowBound=0, cat='Continuous')
+# 3. Create Decision Variables
+h = LpVariable.dicts("Hrs", syllabus.keys(), lowBound=0)
 
-# 4. Objective Function: Maximize (Marks * Hours)
+# 4. Define Objective Function
 model += lpSum([syllabus[c][0] * h[c] for c in syllabus.keys()])
 
-# 5. Constraints
-# Rule 1: Total weekly study time (e.g., 48 hours)
-model += lpSum([h[c] for c in syllabus.keys()]) <= 48
+# 5. Define Constraints
+model += lpSum([h[c] for c in syllabus.keys()]) <= 48  # Total hours limit
 
-# Rule 2: Balanced Allocation (Realistic Study)
 for c in syllabus.keys():
-    # Minimum requirement: 2 hours for all, 1 for Viva/Sessional
+    # Minimum 2 hours for theory, 1 for viva
     if "Viva" in c or "Sessional" in c:
         model += h[c] >= 1
     else:
         model += h[c] >= 2
 
-    # Maximum Limit: No more than 7 hours per subject to prevent burnout
+    # Maximum 7 hours to ensure balance
     model += h[c] <= 7
 
-# 6. Solve using the Simplex Algorithm
+# 6. Solve and Print
 model.solve()
-
-# 7. Final Output Presentation
-print(f"{'OFFICIAL COURSE TITLE':<35} | {'OPTIMIZED HOURS/WEEK'}")
-print("-" * 65)
+print(f"{'COURSE':<35} | {'HOURS'}")
+print("-" * 45)
 for c in syllabus.keys():
-    print(f"{c:<35} | {h[c].varValue:>10.2f} hours")
+    print(f"{c:<35} | {h[c].varValue:>5.2f}")
