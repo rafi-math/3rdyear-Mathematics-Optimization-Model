@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c88b2a2-ac73-4a80-af2e-df3d22c2724c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,23 +23,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rafi-math&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rafi-math/3rdyear-Mathematics-Optimization-Model.git&quot;,
+    &quot;accountId&quot;: &quot;69723c53-76d8-40f1-af48-8bb6562f4804&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3CUyccF6ZFgCLaVZUsjXxNRgjtP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.optimizer.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.optimizer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="optimizer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3rdyear-Mathematics-Optimization-Model" />
@@ -84,16 +97,5 @@
       <updated>1776454524808</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
