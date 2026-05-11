@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c88b2a2-ac73-4a80-af2e-df3d22c2724c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/3rdyear-Mathematics-Optimization-Model.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3y2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3y3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comparison_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/five_segment_lp_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interactive_lp_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lp_final_optimized.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lp_plot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/optimization_results.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/optimized_study_plan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/survey_plot.png" beforeDir="false" />
-    </list>
+    <list default="true" id="9c88b2a2-ac73-4a80-af2e-df3d22c2724c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,15 +40,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.optimizer.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.optimizer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="optimizer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="3rdyear-Mathematics-Optimization-Model" />
